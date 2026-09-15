@@ -1,0 +1,40 @@
+/* Estilos para el Ejercicio 10 */
+.grupo {
+    margin-bottom: 15px;
+}
+
+.grupo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.grupo input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.grupo input[readonly] {
+    background-color: #e3f2fd;
+    color: #0288d1;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

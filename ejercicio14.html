@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 14 - Mayor, Menor y Promedio</title>
+    <link rel="stylesheet" href="css/ejercicio14.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Mayor, Menor y Promedio</h1>
+
+        <div class="grupo">
+            <label for="numeros">Numeros separados por comas:</label>
+            <input type="text" id="numeros" placeholder="Ej. 10, 20, 30, 40, 50">
+        </div>
+
+        <button type="button" onclick="calcular()">Calcular</button>
+
+        <div class="grupo">
+            <label for="mayor">Nmero mayor:</label>
+            <input type="text" id="mayor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo">
+            <label for="menor">Numero menor:</label>
+            <input type="text" id="menor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo">
+            <label for="promedio">Promedio:</label>
+            <input type="text" id="promedio" readonly placeholder="Resultado">
+        </div>
+    </div>
+
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>
